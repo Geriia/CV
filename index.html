@@ -1,12 +1,250 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon CV</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bazin Kévin - CV</title>
+        <link rel="stylesheet" href="style.css" media="screen">
+        <link rel="stylesheet" href="print.css" media="print">
+    </head>
+
+    <body>
+        <!-- CV -->
+        <div id="main" class="row">
+
+            <!-- Partie de gauche du CV -->
+            <div id="left-part" class="col">
+
+                <!-- Section photo de profil -->
+                <div id="picture-container" class="row">
+                    <img id="picture" src="resources/picto-utilisateur-1.png" alt="Photo personnelle">
+                </div>
+
+                <!-- Section CONTACT -->
+                <div id="contact" class="col">
+                    <p class="text-white title text-blue-print">CONTACT</p>
+                    <div class="undertitle"></div>
+                </div>
+
+                <div id="contact-content" class="col text-white text-black">
+                    <p>9, Impasse de la Charonnière</p>
+                    <p>55100 Verdun, France</p>
+                    <p>06 79 94 31 08</p>
+                    <p>bazinkevin667@gmail.com</p>
+                </div>
+
+                <!-- Délimiteur de section -->
+                <div class="cross-section"></div>
+
+                <!-- Section FORMATION -->
+                <div id="formation" class="col">
+                    <p class="text-white title text-blue-print">FORMATION</p>
+                    <div class="undertitle"></div>
+                </div>
+
+                <div id="formation-content" class="col">
+                    <div class="col">
+                        <p class="text-white text-blue-print bold">Titre Professionel - Développeur web et web mobile</p>
+                        <p class="text-blue text-black">ALAJI Formation</p>
+                        <p class="text-grey text-grey-print">2023</p>
+                    </div>
+
+                    <div class="col space-blank">
+                        <p class="text-white text-blue-print bold">Baccalauréat Scientifique spécialité Physique-chimie</p>
+                        <p class="text-blue text-black">Lycée Jean-Auguste Margueritte</p>
+                        <p class="text-grey text-grey-print">2016</p>
+                    </div>
+                </div>
+
+                <!-- Délimiteur de section -->
+                <div class="cross-section"></div>
+
+                <!-- Section LANGUAGE -->
+                <div id="language" class="col">
+                    <p class="text-white title text-blue-print">LANGUE</p>
+                    <div class="undertitle"></div>
+                </div>
+
+                <div id="language-content" class="col text-white text-black">
+                    <p><span class="bold">Français : </span>Langue maternelle</p>
+                    <p><span class="bold">Anglais : </span>C1</p>
+                </div>
+
+                <!-- Délimiteur de section -->
+                <div class="cross-section"></div>
+
+                <!-- Section HOBBIES -->
+                <div id="hobbies" class="col">
+                    <p class="text-white title text-blue-print">CENTRES D'INTÉRÊT</p>
+                    <div class="undertitle"></div>
+                </div>
+
+                <div id="hobbies-content" class="col text-white text-black">
+                    <p><span class="bold">Jeux vidéos : </span>(RPG, Stratégie, Plateformer)</p>
+                    <p><span class="bold">Lecture : </span>(Science-fiction, Fantastique)</p>
+                    <p><span class="bold">Musique : </span>(Rock, Musique électronique, Pop)</p>
+                </div>
+            </div>
+
+            <!-- Partie de droite du CV -->
+            <div id="right-part" class="col">
+
+                <!-- Section PRESENTATION -->
+                <div id="presentation">
+                    <h1 class="text-white text-blue-print bold">Bazin Kévin</h1>
+                    <p class="text-blue text-black bold">DÉVELOPPEUR WEB ET WEB MOBILE - FULL STACK</p>
+                    <p class="text-grey">Présentation à faire</p>
+                </div>
+
+                <!-- Délimiteur de section -->
+                <div class="cross-section"></div>
+
+                <!-- Section EXPERIENCE -->
+                <div id="experience" class="col">
+                    <p class="text-white title text-blue-print">EXPÉRIENCES PROFESSIONNELLES</p>
+                    <div class="undertitle"></div>
+                </div>
+
+                <div id="experience-content" class="col">
+                    <div class="col">
+                        <div class="row company">
+                            <p class="text-white text-blue-print bold">Technicien d'usinage</p>
+                            <p class="text-grey text-grey-print">Août 2020 - Septembre 2022</p>
+                        </div>
+                        <p class="text-blue text-grey-print">L'Enveloppe du Bâtiment</p>
+                        <p class="text-grey text-black">Réalisations de diverses tâches permettant la mise en production de pièces spécifiques pour le bâtiment :</p>
+                        <p class="text-grey text-black">- Lecture de dessins techniques permettant la correction d'éventuelles erreures</p>
+                        <p class="text-grey text-black">- Réalisation du plan 3D pour l'usinage de la pièce</p>
+                        <p class="text-grey text-black">- Calculs pour les outils en fonction du matériau à usiner</p>
+                        <p class="text-grey text-black">- Contrôle des pièces pour vérifier leur conformité et effectuer des corrections sur la machine si nécessaire</p>
+                    </div>
+
+                    <div class="col space-blank">
+                        <div class="row company">
+                            <p class="text-white text-blue-print bold">Intérimaire</p>
+                            <p class="text-grey text-grey-print"> Août 2019 - Août 2020</p>
+                        </div>
+                        <p class="text-blue text-grey-print">Entreprises diverses</p>
+                        <p class="text-grey text-black">Réalisation de diverses tâches en usine et entreprise :</p>
+                        <p class="text-grey text-black">- Opérateur sur ligne de production</p>
+                        <p class="text-grey text-black">- Finitions dans le bâtiment</p>
+                        <p class="text-grey text-black">- Technicien d'usinage</p>
+                    </div>
+
+                    <div class="col space-blank">
+                        <div class="row company">
+                            <p class="text-white text-blue-print bold">Responsable de bar</p>
+                            <p class="text-grey text-grey-print">Septembre 2018 - Juin 2019</p>
+                        </div>
+                        <p class="text-blue text-grey-print">Les Jardins du Mess</p>
+                        <p class="text-grey text-black">
+                            Mise en place des boissons et du service de restauration du bar, 
+                            accueil et prise de commande des clients, 
+                            service à table de consommation, 
+                            comptabilité du bar.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Délimiteur de section -->
+                <div class="cross-section"></div>
+
+                <!-- Section SKILLs -->
+                <div id="skills" class="col">
+                    <p class="text-white title text-blue-print">COMPÉTENCES</p>
+                    <div class="undertitle"></div>
+                </div>
+
+                <div id="skills-content" class="row text-white text-black">
+
+                    <!-- Partie de gauche des compétences -->
+                    <div id="left-skills-content" class="col">
+                        <div class="row justify-between align-center">
+                            <p class="skills-margin">HTML/CSS</p>
+                            <div class="skills-bar row">
+                                <div id="html-css-acquire-bar"></div>
+                                <div id="html-css-rest-bar"></div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-between align-center">
+                            <p class="skills-margin">JavaScript</p>
+                            <div class="skills-bar row">
+                                <div id="javascript-acquire-bar"></div>
+                                <div id="javascript-rest-bar"></div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-between align-center">
+                            <p class="skills-margin">SASS/SCSS</p>
+                            <div class="skills-bar row">
+                                <div id="sass-scss-acquire-bar"></div>
+                                <div id="sass-scss-rest-bar"></div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-between align-center">
+                            <p class="skills-margin">Node.JS</p>
+                            <div class="skills-bar row">
+                                <div id="nodejs-acquire-bar"></div>
+                                <div id="nodejs-rest-bar"></div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-between align-center">
+                            <p class="skills-margin">Vue.JS</p>
+                            <div class="skills-bar row">
+                                <div id="vuejs-acquire-bar"></div>
+                                <div id="vuejs-rest-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Partie de droite des compétences -->
+                    <div id="right-skills-content" class="col">
+                        <div class="row justify-between align-center">
+                            <p class="skills-margin">Bootstrap</p>
+                            <div class="skills-bar row">
+                                <div id="bootstrap-acquire-bar"></div>
+                                <div id="bootstrap-rest-bar"></div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-between align-center">
+                            <p class="skills-margin">WordPress</p>
+                            <div class="skills-bar row">
+                                <div id="wordpress-acquire-bar"></div>
+                                <div id="wordpress-rest-bar"></div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-between align-center">
+                            <p class="skills-margin">PHP</p>
+                            <div class="skills-bar row">
+                                <div id="php-acquire-bar"></div>
+                                <div id="php-rest-bar"></div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-between align-center">
+                            <p class="skills-margin">MySQL</p>
+                            <div class="skills-bar row">
+                                <div id="mysql-acquire-bar"></div>
+                                <div id="mysql-rest-bar"></div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-between align-center">
+                            <p class="skills-margin">Symfony</p>
+                            <div class="skills-bar row">
+                                <div id="symfony-acquire-bar"></div>
+                                <div id="symfony-rest-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
