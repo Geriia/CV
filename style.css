@@ -37,7 +37,7 @@ body{
     width: 75%;
     height: auto;
     border-radius: 50%;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 #contact{
@@ -130,131 +130,6 @@ body{
 
 #right-skills-content{
     width: 45%;
-}
-
-#html-css-acquire-bar{
-    background-color: #0342A6;
-    width: 95%;
-    border-radius: 25px 0px 0px 25px;
-}
-
-#html-css-rest-bar{
-    background-color: #606B7D;
-    width: 5%;
-    border-radius: 0px 25px 25px 0px;
-}
-
-#javascript-acquire-bar{
-    background-color: #0342A6;
-    width: 85%;
-    border-radius: 25px 0px 0px 25px;
-}
-
-#javascript-rest-bar{
-    background-color: #606B7D;
-    width: 15%;
-    border-radius: 0px 25px 25px 0px;
-}
-
-#sass-scss-acquire-bar{
-    background-color: #0342A6;
-    width: 90%;
-    border-radius: 25px 0px 0px 25px;
-}
-
-#sass-scss-rest-bar{
-    background-color: #606B7D;
-    width: 10%;
-    border-radius: 0px 25px 25px 0px;
-}
-
-#vuejs-acquire-bar{
-    background-color: #0342A6;
-    width: 90%;
-    border-radius: 25px 0px 0px 25px;
-}
-
-#vuejs-rest-bar{
-    background-color: #606B7D;
-    width: 10%;
-    border-radius: 0px 25px 25px 0px;
-}
-
-#nodejs-acquire-bar{
-    background-color: #0342A6;
-    width: 75%;
-    border-radius: 25px 0px 0px 25px;
-}
-
-#nodejs-rest-bar{
-    background-color: #606B7D;
-    width: 25%;
-    border-radius: 0px 25px 25px 0px;
-}
-
-#bootstrap-acquire-bar{
-    background-color: #0342A6;
-    width: 90%;
-    border-radius: 25px 0px 0px 25px;
-}
-
-#bootstrap-rest-bar{
-    background-color: #606B7D;
-    width: 10%;
-    border-radius: 0px 25px 25px 0px;
-}
-
-#wordpress-acquire-bar{
-    background-color: #0342A6;
-    width: 90%;
-    border-radius: 25px 0px 0px 25px;
-}
-
-#wordpress-rest-bar{
-    background-color: #606B7D;
-    width: 10%;
-    border-radius: 0px 25px 25px 0px;
-}
-
-#php-acquire-bar{
-    background-color: #0342A6;
-    width: 80%;
-    border-radius: 25px 0px 0px 25px;
-}
-
-#php-rest-bar{
-    background-color: #606B7D;
-    width: 20%;
-    border-radius: 0px 25px 25px 0px;
-}
-
-#mysql-acquire-bar{
-    background-color: #0342A6;
-    width: 85%;
-    border-radius: 25px 0px 0px 25px;
-}
-
-#mysql-rest-bar{
-    background-color: #606B7D;
-    width: 15%;
-    border-radius: 0px 25px 25px 0px;
-}
-
-#symfony-acquire-bar{
-    background-color: #0342A6;
-    width: 60%;
-    border-radius: 25px 0px 0px 25px;
-}
-
-#symfony-rest-bar{
-    background-color: #606B7D;
-    width: 40%;
-    border-radius: 0px 25px 25px 0px;
-}
-
-.skills-bar{
-    width: 60%;
-    height: 7px;
 }
 
 .company{

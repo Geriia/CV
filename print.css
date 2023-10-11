@@ -31,7 +31,7 @@ body{
 }
 
 #picture{
-    width: 75%;
+    width: 60%;
     height: auto;
     border-radius: 50%;
 }
@@ -124,115 +124,6 @@ body{
     width: 50%;
 }
 
-#html-css-acquire-bar{
-    background-color: #0342A6;
-    width: 95%;
-}
-
-#html-css-rest-bar{
-    background-color: #606B7D;
-    width: 5%;
-}
-
-#javascript-acquire-bar{
-    background-color: #0342A6;
-    width: 90%;
-}
-
-#javascript-rest-bar{
-    background-color: #606B7D;
-    width: 10%;
-}
-
-#sass-scss-acquire-bar{
-    background-color: #0342A6;
-    width: 95%;
-}
-
-#sass-scss-rest-bar{
-    background-color: #606B7D;
-    width: 5%;
-}
-
-#vuejs-acquire-bar{
-    background-color: #0342A6;
-    width: 90%;
-}
-
-#vuejs-rest-bar{
-    background-color: #606B7D;
-    width: 10%;
-}
-
-#nodejs-acquire-bar{
-    background-color: #0342A6;
-    width: 75%;
-}
-
-#nodejs-rest-bar{
-    background-color: #606B7D;
-    width: 25%;
-}
-
-#bootstrap-acquire-bar{
-    background-color: #0342A6;
-    width: 90%;
-}
-
-#bootstrap-rest-bar{
-    background-color: #606B7D;
-    width: 10%;
-}
-
-#wordpress-acquire-bar{
-    background-color: #0342A6;
-    width: 90%;
-}
-
-#wordpress-rest-bar{
-    background-color: #606B7D;
-    width: 10%;
-}
-
-#php-acquire-bar{
-    background-color: #0342A6;
-    width: 80%;
-}
-
-#php-rest-bar{
-    background-color: #606B7D;
-    width: 20%;
-}
-
-#mysql-acquire-bar{
-    background-color: #0342A6;
-    width: 85%;
-}
-
-#mysql-rest-bar{
-    background-color: #606B7D;
-    width: 15%;
-}
-
-#symfony-acquire-bar{
-    background-color: #0342A6;
-    width: 60%;
-}
-
-#symfony-rest-bar{
-    background-color: #606B7D;
-    width: 40%;
-}
-
-.skills-margin{
-    margin: 8px;
-}
-
-.skills-bar{
-    width: 60%;
-    height: 7px;
-}
-
 .company{
     justify-content: space-between;
 }
@@ -257,6 +148,10 @@ body{
 
 .cross-section{
     display: none;
+}
+
+.skills-margin{
+    margin: 7px 0px;
 }
 
 .row{
